@@ -1,8 +1,8 @@
 <template>
-    <div class="md:flex items-center lg:px-16 px-6 md:pt-1 lg:pt-0">
+    <div class="md:flex items-center justify-center lg:px-16 px-6 md:pt-5">
         <div class="flex justify-between items-center flex-none">
             <!-- logo -->
-            <div class=" text-2xl text-gray-400 flex items-center">
+            <div class=" text-2xl text-gray-400 flex items-center z-30">
                 <div class="w-12 h-12 bg-green-400 flex justify-between items-center text-2xl px-1 text-black relative">
                     <font-awesome-icon icon="chevron-left" />
                     <font-awesome-icon icon="chevron-right" />
@@ -19,17 +19,15 @@
                 </div>
             </div>
             <!-- toggle -->
-            <div class="md:hidden">
+            <!-- <div class="md:hidden">
                 <button @click="toggleMenuFunc" v-if="!toggleMenu" class="text-2xl text-gray-400  focus:outline-none">
                     <font-awesome-icon icon="bars" />
                 </button>
                 <button @click="toggleMenuFunc" v-else class="text-2xl text-gray-400 focus:outline-none">
                     <font-awesome-icon icon="times" />
                 </button>
-            </div>
+            </div> -->
         </div>
-
-        <Nav/>
 
     </div>
 </template>

@@ -1,14 +1,17 @@
 <template>
     <!-- about -->
-    <div id="intro" class="absolute inset-0 bg-intro-bg max-w-screen bg-top bg-auto z-p10">
+    <div id="intro" class="absolute inset-0 max-w-screez-p10 ">
         <div class="grid md:grid-cols-3 lg:grid-cols-2 h-full container mx-auto md:px-20 px-8">
             <div class="flex items-center md:col-span-2 lg:col-span-1">
-                <div>
+                <div class="z-30">
                     <h1 class="xl:text-7xl lg:text-5xl text-4xl md:text-5xl font-bold text-black"> <span class="text-green-400"> {{ bTagOpen}} </span>Hello<span class="text-green-400"> {{bTagClose}} I’m Benson,</span>  Front-end Web Developer</h1>
                     <p class="pt-12 text-base md:text-sm lg:text-xl md:leading-8 leading-7">
                         A WordPress website about Hypergiant company which creates hyper-efficient and scalable. The careful have the as a spirits and client ihave by assistant have took initial sentences omens.
                     </p>
                 </div>
+            </div>
+            <div class="relative ">
+                <img class="absolute inset-0 z-0" src="../assets/ben.jpeg" alt="" srcset="">
             </div>
         </div>
     </div>
@@ -95,25 +98,46 @@
             <p class="md:text-3xl">Here is a selection of my best projects for worldwide clients</p>
         </div>
         <div class="grid lg:grid-cols-3 gap-16">
-           <router-link to="/">
-            <img src="../assets/p-gallery-1.png" alt="">
-            <h2 class="py-3 text-xl">Chat App</h2>
+           <div>
+            <img class="h-96 mx-auto" src="../assets/chat.png" alt="">
+            <div class="flex justify-between items-center">
+                <div>
+                    <h2 class="py-3 text-xl">Chat App</h2>
+                    <p class="text-green-400 font-semibold">Web Application</p>
+                </div>
+                <router-link class="font-bold " to="https://github.com/slickben/BM-chat/tree/main">
+                 Github Rep
+                </router-link>
+            </div>
 
-            <p class="text-green-400 font-semibold">Web Application</p>
+           </div>
+           <div>
+            <img class="h-96 mx-auto" src="../assets/termii.png" alt="">
+            <div class="flex justify-between items-center">
+                <div>
+                    <h2 class="py-3 text-xl">Termii</h2>
+                    <p class="text-green-400 font-semibold">Termii Landing page clone</p>
+                </div>
+                <router-link class="font-bold " to="https://github.com/slickben/termii-landing-page-clone">
+                 Github Rep
+                </router-link>
+            </div>
+            
+           </div>
+           <div>
+            <img class="h-96 mx-auto" src="../assets/rev.png" alt="">
+            <div class="flex justify-between items-center">
+                <div>
+                    <h2 class="py-3 text-xl">Rayvia</h2>
 
-           </router-link>
-           <router-link to="/">
-            <img src="../assets/p-gallery-1.png" alt="">
-            <h2 class="py-3 text-xl">Gosearch</h2>
-
-            <p class="text-green-400 font-semibold">Web Application</p>
-           </router-link>
-           <router-link to="/">
-            <img src="../assets/p-gallery-1.png" alt="">
-            <h2 class="py-3 text-xl">Landing Page</h2>
-
-            <p class="text-green-400 font-semibold">Web Application</p>
-           </router-link>
+                    <p class="text-green-400 font-semibold">Photograpy Landing Page</p>
+                </div>
+                <router-link class="font-bold " to="https://github.com/slickben/Rayviar-6-Landing-page">
+                 Github Rep
+                </router-link>
+            </div>
+            
+           </div>
         </div>
     </div>
 

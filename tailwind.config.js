@@ -16,7 +16,7 @@ module.exports = {
          "xxs": "0.60rem"
        },
        backgroundImage: theme => ({
-        'intro-bg': "url('/public/adam.jpg')",
+        'intro-bg': "url('./public/ben.jpeg')",
        }),
        zIndex: {
         'p10': '-10',
