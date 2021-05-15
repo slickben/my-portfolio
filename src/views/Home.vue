@@ -10,8 +10,16 @@
                     </p>
                 </div>
             </div>
-            <div class="relative ">
-                <img class="absolute inset-0 z-0" src="../assets/ben.jpeg" alt="" srcset="">
+            <div class="">
+                <div class="relative flex justify-center items-center text-9xl px-1 text-black h-full">
+                    <font-awesome-icon icon="chevron-left" />
+                    <font-awesome-icon icon="chevron-right" />
+                    <div class="absolute inset-0 flex justify-center">
+                        <div class="h-full w-5 bg-black transform rotate-12">
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -102,12 +110,19 @@
             <img class="h-96 mx-auto" src="../assets/chat.png" alt="">
             <div class="flex justify-between items-center">
                 <div>
-                    <h2 class="py-3 text-xl">Chat App</h2>
-                    <p class="text-green-400 font-semibold">Web Application</p>
+                    <div>
+                        <h2 class="py-3 text-xl">Chat App</h2>
+                        <p class="text-green-400 font-semibold">Web Application</p>
+                    </div>
+                    <router-link class="font-bold " to="https://github.com/slickben/BM-chat/tree/main">
+                    Github Rep
+                    </router-link>
                 </div>
-                <router-link class="font-bold " to="https://github.com/slickben/BM-chat/tree/main">
-                 Github Rep
-                </router-link>
+                <div>
+                    <router-link class="font-bold " to="https://github.com/slickben/Rayviar-6-Landing-page">
+                    Live Demo
+                    </router-link>
+                </div>
             </div>
 
            </div>
@@ -115,12 +130,19 @@
             <img class="h-96 mx-auto" src="../assets/termii.png" alt="">
             <div class="flex justify-between items-center">
                 <div>
-                    <h2 class="py-3 text-xl">Termii</h2>
-                    <p class="text-green-400 font-semibold">Termii Landing page clone</p>
+                    <div>
+                        <h2 class="py-3 text-xl">Termii</h2>
+                        <p class="text-green-400 font-semibold">Termii Landing page clone</p>
+                    </div>
+                    <router-link class="font-bold " to="https://github.com/slickben/termii-landing-page-clone">
+                    Github Rep
+                    </router-link>
                 </div>
-                <router-link class="font-bold " to="https://github.com/slickben/termii-landing-page-clone">
-                 Github Rep
-                </router-link>
+                <div>
+                    <router-link class="font-bold " to="https://github.com/slickben/Rayviar-6-Landing-page">
+                    Live Demo
+                    </router-link>
+                </div>
             </div>
             
            </div>
@@ -128,13 +150,20 @@
             <img class="h-96 mx-auto" src="../assets/rev.png" alt="">
             <div class="flex justify-between items-center">
                 <div>
+                    <div>
                     <h2 class="py-3 text-xl">Rayvia</h2>
 
                     <p class="text-green-400 font-semibold">Photograpy Landing Page</p>
+                    </div>
+                    <router-link class="font-bold " to="https://github.com/slickben/Rayviar-6-Landing-page">
+                    Github Rep
+                    </router-link>
                 </div>
-                <router-link class="font-bold " to="https://github.com/slickben/Rayviar-6-Landing-page">
-                 Github Rep
-                </router-link>
+                <div>
+                    <router-link class="font-bold " to="https://github.com/slickben/Rayviar-6-Landing-page">
+                    Live Demo
+                    </router-link>
+                </div>
             </div>
             
            </div>
