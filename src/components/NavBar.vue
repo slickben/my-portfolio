@@ -1,5 +1,5 @@
 <template>
-    <div class="md:flex items-center justify-center lg:px-16 px-6 md:pt-5">
+    <div class="flex items-center justify-center lg:px-16 px-6 py-5">
         <div class="flex justify-between items-center flex-none">
             <!-- logo -->
             <div class=" text-2xl text-gray-400 flex items-center z-30">

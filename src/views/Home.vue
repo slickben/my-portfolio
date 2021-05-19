@@ -1,6 +1,6 @@
 <template>
     <!-- about -->
-    <div id="intro" class="absolute inset-0 max-w-screez-p10 ">
+    <div id="intro" class="absolute inset-0 max-w-screez-p10 pt-16 md:py-0">
         <div class="grid md:grid-cols-3 lg:grid-cols-2 h-full container mx-auto md:px-20 px-8">
             <div class="flex items-center md:col-span-2 lg:col-span-1">
                 <div class="z-30">
@@ -12,10 +12,10 @@
             </div>
             <div class="">
                 <div class="relative flex justify-center items-center text-9xl px-1 text-black h-full">
-                    <font-awesome-icon icon="chevron-left" />
-                    <font-awesome-icon icon="chevron-right" />
+                    <font-awesome-icon class="mr-6" icon="chevron-left" />
+                    <font-awesome-icon class="ml-6" icon="chevron-right" />
                     <div class="absolute inset-0 flex justify-center">
-                        <div class="h-full w-5 bg-black transform rotate-12">
+                        <div class="h-full w-5  bg-black transform rotate-12">
 
                         </div>
                     </div>
@@ -114,14 +114,14 @@
                         <h2 class="py-3 text-xl">Chat App</h2>
                         <p class="text-green-400 font-semibold">Web Application</p>
                     </div>
-                    <router-link class="font-bold " to="https://github.com/slickben/BM-chat/tree/main">
+                    <a class="font-bold " target="_blank" href="https://github.com/slickben/BM-chat/tree/main">
                     Github Rep
-                    </router-link>
+                    </a>
                 </div>
                 <div>
-                    <router-link class="font-bold " to="https://benchat.netlify.app/chat">
+                    <a class="font-bold " target="_blank" href="https://benchat.netlify.app/chat">
                     Live Demo
-                    </router-link>
+                    </a>
                 </div>
             </div>
 
@@ -134,14 +134,14 @@
                         <h2 class="py-3 text-xl">Termii</h2>
                         <p class="text-green-400 font-semibold">Termii Landing page clone</p>
                     </div>
-                    <router-link class="font-bold " to="https://github.com/slickben/termii-landing-page-clone">
+                    <a class="font-bold " target="_blank" href="https://github.com/slickben/termii-landing-page-clone">
                     Github Rep
-                    </router-link>
+                    </a>
                 </div>
                 <div>
-                    <router-link class="font-bold " to="https://slickben.github.io/termii-landing-page-clone/">
+                    <a class="font-bold " target="_blank" href="https://slickben.github.io/termii-landing-page-clone/">
                     Live Demo
-                    </router-link>
+                    </a>
                 </div>
             </div>
             
@@ -155,14 +155,14 @@
 
                     <p class="text-green-400 font-semibold">Photograpy Landing Page</p>
                     </div>
-                    <router-link class="font-bold " to="https://github.com/slickben/Rayviar-6-Landing-page">
+                    <a class="font-bold " target="_blank" href="https://github.com/slickben/Rayviar-6-Landing-page">
                     Github Rep
-                    </router-link>
+                    </a>
                 </div>
                 <div>
-                    <router-link class="font-bold " to="https://slickben.github.io/Rayviar-6-Landing-page/">
+                    <a class="font-bold " target="_blank" href="https://slickben.github.io/Rayviar-6-Landing-page/">
                     Live Demo
-                    </router-link>
+                    </a>
                 </div>
             </div>
             
