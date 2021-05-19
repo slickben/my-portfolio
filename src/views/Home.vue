@@ -119,7 +119,7 @@
                     </router-link>
                 </div>
                 <div>
-                    <router-link class="font-bold " to="https://github.com/slickben/Rayviar-6-Landing-page">
+                    <router-link class="font-bold " to="https://benchat.netlify.app/chat">
                     Live Demo
                     </router-link>
                 </div>
@@ -139,7 +139,7 @@
                     </router-link>
                 </div>
                 <div>
-                    <router-link class="font-bold " to="https://github.com/slickben/Rayviar-6-Landing-page">
+                    <router-link class="font-bold " to="https://slickben.github.io/termii-landing-page-clone/">
                     Live Demo
                     </router-link>
                 </div>
@@ -160,7 +160,7 @@
                     </router-link>
                 </div>
                 <div>
-                    <router-link class="font-bold " to="https://github.com/slickben/Rayviar-6-Landing-page">
+                    <router-link class="font-bold " to="https://slickben.github.io/Rayviar-6-Landing-page/">
                     Live Demo
                     </router-link>
                 </div>
